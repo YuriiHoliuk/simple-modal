@@ -130,10 +130,10 @@ Apply mixins to simple-modal
 
 ```css
 simple-modal {
-  @apply(--simple-modal) {
+  --simple-modal: {
     background: black;
     color: white;
-  };
+  }
 }
 ```
 
